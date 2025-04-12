@@ -1,6 +1,6 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+title: "Ali's Personal Logs and Journey"
+author: "Ali Üstün"
+description: "Made with the inevitable journey that began with Ali's life."
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -8,7 +8,7 @@ date_format: "%B %d, %Y"
 
 # Layout
 
-show_excerpts: true        # show article excerpts on the home page
+show_excerpts: false       # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
 minimal: false             # use a dark header
@@ -16,13 +16,16 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
+  - {file: "index.md"}
+#  - {file: "README.md"}
+  - {title: Blog, file: blog.md}
+  - {title: Me, url: docs/about/persona}
+  - {title: CV, url: docs/about/cv}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:ustuna16@itu.edu.tr"}
+  - {title: Github, icon: github, url: "https://github.com/aliustun"}
+  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/ali-ustun/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
@@ -30,3 +33,4 @@ comments:
 
 plugins:
  - jekyll-feed
+ - jekyll-gist
