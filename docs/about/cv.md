@@ -22,9 +22,6 @@ permalink: /docs/about/cv
 
 **TÜBİTAK** — *Digital IC Design Engineer*  
 *Kocaeli, Turkey | September 2020 - Present*  
-- **PCIe Gen 3 Project:** Ongoing project for a PCIe Memory interface, includes PHY, MAC, DLL, and TL layers.  
-- **ICRNG Project:** RTL design (VHDL/Verilog), tested on Petalinux + ZedBoard using Ethernet and GPIO.  
-- **SQUARE Project:** Designed data acquisition FPGA with 10 Gbps ADC, PCIE3 and Ethernet used.
 
 **TÜBİTAK** — *Part-time Digital Design Engineer*  
 *Kocaeli, Turkey | June 2019 - March 2020*  

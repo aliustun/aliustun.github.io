@@ -4,4 +4,4 @@ title: "Background of Ali and Future to be"
 permalink: /docs/about/persona
 ---
 
-Hi, I'm Ali. Welcome to my personal corner of the internet.
+Hi, I'm Ali. Welcome to my personal corner of the internet. In this space, I will log my journey, and interests in the blog. 
